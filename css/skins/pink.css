@@ -1,0 +1,40 @@
+.aside .logo a::before{
+	border-top: 4px solid #ec1839;
+	border-left: 4px solid #ec1839;
+}
+.aside .logo a::after{
+	border-right: 4px solid #ec1839;
+	border-bottom: 4px solid #ec1839;
+}
+
+body.dark .resource .resource-item-list .resource-item-title:hover,
+.resource .resource-item-list .resource-item-title:hover,
+.about .about-content .education a,
+.aside .nav li a:not(.active):hover,
+.contact .contact-info-item .icon .fa,
+.blog .blog-item-inner .blog-info .blog-tags a,
+.section-description a,
+.publications a,
+.about .about-content .about-text h3 span,
+body.dark .aside .nav li a:hover,
+.aside .nav li a:hover,
+body.dark .aside .nav li a.active,
+.aside .nav li a.active{
+	color: #ec1839;
+}
+
+.publications .publication-item-list .publication-item-title:before,
+.resource .resource-item-list .resource-item-title:before,
+.publications .publication-item-list .publication-item-title .preprint,
+.blog .blog-item-inner .blog-img .blog-date,
+.about .about-content .timeline .circle-dot,
+.about .about-content .timeline .timeline-item::before,
+.btn,
+.section-title h2::before,
+.section-title h2::after, 
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-links a{
+	background-color: #ec1839;
+}
